@@ -18,6 +18,7 @@ The function of restriction the rights for the users and the guests to view, rea
 The module "User profile" allows to change own password to login the application, and also to move to the module "Private messages", where the members can exchange their password of the topic or the forum between themselves. 
 
 It is allowed a short links to the topics, for example, http://cryptbb.us.to/forum/?t=2
+
 In this case the application realizes the automatic moving from the main page of the forum to the topic with number 2. While the user registers and logins, the redirect is kept. 
 
 Besides, to increase a safety, the offline tools to generate a random password, to create a keys and to encrypt and veilize a message are created. The attaching the encrypted file to the post is realized. BB-codes and the smileys are supported. 
