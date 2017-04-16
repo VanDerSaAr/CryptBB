@@ -1,14 +1,12 @@
 This PHP+JS application, an encrypted forum with open source code, provides a more securer private communication between people. All messages are transmited over internet and stored in the database in the encrypted format. All mathematical cryptographic operations are executed by client (internet browser), not by server. To encrypt the messages, this forum uses AES (Rijndael) 256 CTR (Counter mode), the symmetric military-class encryption (USA) 2012, and to exchange the password between users - RSA (Rivest-Shamir-Adleman) 768-2048, one of the best asymmetric ciphers at present time (2012). With this application You can create Your own forums and discuss with Your friends any topics securely. Anybody (even administrator) cannot read Your closed messages. Join the encrypted community! 
 
 
-
 Description. 
 
 The site has a simple structure:
 - Forums → Forum → Topic → Post
 - Forums → Users
 - User profile → Private messages → Exchange password
-
 
 
 The forums contain the topics, the topics consist of posts. All topics have own passwords, all posts are encrypted. Depending on options, the forum also can have own password to encrypt the names of its topics. The author of the post can delete his post, the topic starter can delete any post in his topic and the topic itself, the forum creator can delete any post or topic in his forum and the forum itself. Administrator can delete any post, topic or forum. 
@@ -47,11 +45,9 @@ History.
 2016-12-31: Version 6. CAPSUL was simplified up to NOISE, SCRAMBLE was simplified up to SWAP. The offline utility SIGN to digitally sign and verify the publicated file was created. 
 
 
-
 Download. 
 
-cryptbb-6.16.12.31.zip (185KB) 
-
+cryptbb-6.16.12.31.zip (157KB) 
 
 
 See also the offline utilities.
