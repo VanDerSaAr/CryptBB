@@ -1,57 +1,53 @@
-This PHP+JS application, an encrypted forum with open source code, provides a more securer private communication between people. All messages are transmited over internet and stored in the database in the encrypted format. All mathematical cryptographic operations are executed by client (internet browser), not by server. To encrypt the messages, this forum uses AES (Rijndael) 256 CTR (Counter mode), the symmetric military-class encryption (USA) 2012, and to exchange the password between users - RSA (Rivest-Shamir-Adleman) 768-2048, one of the best asymmetric ciphers at present time (2012). With this application You can create Your own forums and discuss with Your friends any topics securely. Anybody (even administrator) cannot read Your closed messages. Join the encrypted community! 
+Это PHP+JS приложение, зашифрованный форум с открытым исходным кодом, обеспечивает более безопасное личное общение между людьми. Все сообщения передаются по сети Интернет и хранятся в базе данных в зашифрованном формате. Все математические криптографические операции выполняются клиентом (интернет-браузером), не сервером. Для шифрования текста этот форум использует AES (Rijndael) 256 CTR (Counter mode), симметричное шифрование военного класса (США) 2012, а для обмена паролями между пользователями - RSA (Rivest-Shamir-Adleman) 768-2048, один из лучших асимметричных шифров на сегодняшнее время (2012). С этим приложением Вы можете создавать Ваши собственные форумы и безопасно обсуждать с Вашими друзьями любые темы. Никто (даже администратор) не может прочитать Ваши закрытые сообщения. Присоединяйтесь к зашифрованному сообществу! 
 
 
+Описание. 
 
-Description. 
-
-The site has a simple structure:
-- Forums → Forum → Topic → Post
-- Forums → Users
-- User profile → Private messages → Exchange password
-
+Сайт имеет простую структуру:
+- Форумы → Форум → Тема → Пост
+- Форумы → Пользователи
+- Профиль пользователя → Личные сообщения → Обмен паролем
 
 
-The forums contain the topics, the topics consist of posts. All topics have own passwords, all posts are encrypted. Depending on options, the forum also can have own password to encrypt the names of its topics. The author of the post can delete his post, the topic starter can delete any post in his topic and the topic itself, the forum creator can delete any post or topic in his forum and the forum itself. Administrator can delete any post, topic or forum. 
+Форумы содержат темы, темы состоят из постов. Все темы имеют свои пароли, все посты шифруются. В зависимости от настроек, форум также может иметь свой пароль для шифрования названий его тем. Автор поста может удалить свой пост, создатель темы может удалить любой пост в своей теме и саму тему, создатель форума может удалить любой пост или тему в своём форуме, а также сам форум. Администратор может удалить любой пост, тему или форум. 
 
-The function of restriction the rights for the users and the guests to view, read and write in forums and topics is supported. The module "Users" displays the numbers of all registered members to set the rights for a definite users in the corresponding section. 
+Поддерживается функция разграничения прав пользователей и гостей на просмотр, чтение и запись в форумах и темах. Модуль "Пользователи" отображает номера всех зарегистрированных участников для задания прав конкретных пользователей в соответствующем разделе. 
 
-The module "User profile" allows to change own password to login the application, and also to move to the module "Private messages", where the members can exchange their password of the topic or the forum between themselves. 
+Модуль "Профиль пользователя" позволяет сменить свой пароль для входа на приложение, а также перейти в модуль "Личные сообщения", где участники могут обменяться между собой их паролем темы или форума. 
 
-It is allowed a short links to the topics, for example, http://cryptbb.us.to/forum/?t=2
+Разрешены короткие ссылки на темы, например, http://cryptbb.us.to/forum/?t=2
 
-In this case the application realizes the automatic moving from the main page of the forum to the topic with number 2. While the user registers and logins, the redirect is kept. 
+В данном случае приложение осуществляет автоматический переход с главной страницы форума на тему под номером 2. При регистрации и логине пользователя редирект сохраняется. 
 
-Besides, to increase a safety, the offline tools to generate a random password, to create a keys and to encrypt and veilize a message are created. The attaching the encrypted file to the post is realized. BB-codes and the smileys are supported. 
-
-
-History. 
-
-2012-05-31: Version 1. The forum in english (eng) language was hosted. AES-256 CTR encryption of the messages was added.
-
-2012-07-10: RSA 768-2048 exchanging the password between the users was added. The offline utilities ASYM, SYMM were created. CONSOLE captcha was added.
-
-2013-01-22: MT 19937 random generator based on the offline utility RAND was added. The supporting of russian (rus) language was added. CONSOLE captcha was upgraded.
-
-2013-03-10: CAPSUL capsulation of the small messages was added. The source code (PHP, HTML and JS) of the application was publicated under MIT license.
-
-2013-06-14: Version 2. VEIL veilization of the messages for english (eng) and russian (rus) languages was added.
-
-2014-02-01: Version 3. The supporting of PHPSECLIB + JS was added. RAND, CAPSUL were upgraded. The design of the elements was changed.
-
-2015-01-25: Version 4. ASYM, SYMM utilities were upgraded. SCRAMBLE scrambling of the messages after CAPSUL was added.
-
-2015-05-09: Version 5. BB-codes are supported. User "crapspacle" asked about the image posting, therefore the attaching the encrypted file to the message was realized.
-
-2015-06-02: The smileys are supported. User "Sophia Kiss" wrote and shared the open source WIN32-application to locally convert Base64-text to a binary data and save it to a file.
-
-2016-12-31: Version 6. CAPSUL was simplified up to NOISE, SCRAMBLE was simplified up to SWAP. The offline utility SIGN to digitally sign and verify the publicated file was created. 
+Кроме этого, для повышения безопасности созданы оффлайновые инструменты для генерации рандомного пароля, для создания ключей, для шифрования и вуализации сообщения. Реализовано прикрепление зашифрованного файла к посту. Поддерживаются BB-коды и смайлы. 
 
 
+История. 
 
-Download. 
+2012-05-31: Версия 1. Форум на английском (eng) языке загружен на хост. Добавлено AES-256 CTR шифрование сообщений.
 
-cryptbb-6.16.12.31.zip (185KB) 
+2012-07-10: Добавлен RSA 768-2048 обмен паролем между пользователями. Созданы оффлайновые утилиты ASYM, SYMM. Добавлена CONSOLE капча.
+
+2013-01-22: Добавлен MT 19937 рандомный генератор на базе оффлайновой утилиты RAND. Добавлена поддержка русского (rus) языка. Усовершенствована CONSOLE капча.
+
+2013-03-10: Добавлена CAPSUL капсуляция малых сообщений. Опубликован исходный код приложения (PHP, HTML и JS) под MIT лицензией.
+
+2013-06-14: Версия 2. Добавлена VEIL вуализация сообщений для английского (eng) и русского (rus) языков.
+
+2014-02-01: Версия 3. Добавлена поддержка PHPSECLIB + JS. Усовершенствованы RAND, CAPSUL. Изменён дизайн элементов.
+
+2015-01-25: Версия 4. Усовершенствованы утилиты ASYM, SYMM. Добавлено SCRAMBLE скремблирование сообщений после CAPSUL.
+
+2015-05-09: Версия 5. Поддерживаются BB-коды. Пользователь "crapspacle" просил о постинге изображений, поэтому реализовано прикрепление зашифрованного файла к сообщению.
+
+2015-06-02: Поддерживаются смайлы. Пользователь "Sophia Kiss" написала и выложила WIN32-приложение с открытым исходным кодом для локальной конвертации Base64-текста расшифрованного файла, прикреплённого к сообщению, в бинарные данные и сохранения их в файл.
+
+2016-12-31: Версия 6. CAPSUL упрощён до NOISE, SCRAMBLE упрощён до SWAP. Создана оффлайновая утилита SIGN для цифровой подписи и верификации публикуемого файла. 
 
 
+Скачать. 
 
-See also the offline utilities.
+cryptbb-6.16.12.31-rus.zip (168КБ) 
+
+
+Смотрите также оффлайновые утилиты.
