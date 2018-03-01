@@ -2,28 +2,29 @@ This PHP+JS application, the encrypted forum with open source code, provides a m
 
 Official site: http://cryptbb.us.to
 
-[b]Description[/b]. 
+
+Description. 
 
 The site has a simple structure:
 - Forums → Forum → Topic → Post
 - Forums → Users
 - User profile → Private messages → Exchange password
 
+The forums contain the topics, the topics consist of posts. All topics have own passwords, all posts are encrypted. Depending on options, the forum also can have own password to encrypt the names of its topics. The author of the post can delete his post, the topic starter can delete any post in his topic and the topic itself, the forum creator can delete any post or topic in his forum and the forum itself. Administrator can delete any post, topic or forum.
 
-The forums contain the topics, the topics consist of posts. All topics have own passwords, all posts are encrypted. Depending on options, the forum also can have own password to encrypt the names of its topics. The author of the post can delete his post, the topic starter can delete any post in his topic and the topic itself, the forum creator can delete any post or topic in his forum and the forum itself. Administrator can delete any post, topic or forum. 
+The function of restriction the rights for the users and the guests to view, read and write in forums and topics is supported. The module "Users" displays the numbers of all registered members to set the rights for a definite users in the corresponding section.
 
-The function of restriction the rights for the users and the guests to view, read and write in forums and topics is supported. The module "Users" displays the numbers of all registered members to set the rights for a definite users in the corresponding section. 
-
-The module "User profile" allows to change own password to login the application, and also to move to the module "Private messages", where the members can exchange their password of the topic or the forum between themselves. 
+The module "User profile" allows to change own password to login the application, and also to move to the module "Private messages", where the members can exchange their password of the topic or the forum between themselves.
 
 It is allowed a short links to the topics, for example, http://cryptbb.us.to/forum/?t=2
+In this case the application realizes the automatic moving from the main page of the forum to the topic with number 2. While the user registers and logins, the redirect is kept.
 
-In this case the application realizes the automatic moving from the main page of the forum to the topic with number 2. While the user registers and logins, the redirect is kept. 
+Administrator can restrict the members to create a new forums. Also he can define the invite code, which is demanded to register a new users, and announce this code to a needed guests, for example, http://cryptbb.us.to/forum/reg.php?i=123456
 
-Besides, to increase a safety, the offline tools to generate a random password, to create a keys and to encrypt and veilize a message are created. The attaching the encrypted file to the post is realized. BB-codes and the smileys are supported. 
+Besides, to increase a safety, the offline tools to generate a random password, to create a keys and to encrypt and veilize a message are created. The attaching the encrypted file to the post is realized. BB-codes and the smileys are supported.
 
 
-[b]History[b]. 
+History.
 
 2012-05-31: Version 1. The forum in english (eng) language was hosted. AES-256 CTR encryption of the messages was added.
 2012-07-10: RSA 768-2048 exchanging the password between the users was added. The offline utilities ASYM, SYMM were created. CONSOLE captcha was added.
@@ -39,7 +40,7 @@ Besides, to increase a safety, the offline tools to generate a random password, 
 2018-01-03: The ability of demanding the invite code to register a new users is realized. The utility SIGN was upgraded.
 
 
-[b]Download[/b].
+Download.
 
 cryptbb-7.18.1.3.zip
 
@@ -47,3 +48,4 @@ cryptbb-7.18.1.3.zip
 See also the offline utilities.
 
 Read the official discussion on the resource http://www.php-forum.com/phpforum/viewtopic.php?f=30&t=22732]php-forum.com since 2013.
+
