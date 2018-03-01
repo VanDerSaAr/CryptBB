@@ -53,8 +53,6 @@ Download.
 
 cryptbb-7.18.1.3.zip
 
-See also the offline utilities:
-http://cryptbb.us.to/soft/curr/
+See also the offline utilities: http://cryptbb.us.to/soft/curr/
 
-Read the official discussion on the resource php-forum.com since 2013:
-http://www.php-forum.com/phpforum/viewtopic.php?f=30&t=22732
+Read the official discussion on the resource php-forum.com since 2013: http://www.php-forum.com/phpforum/viewtopic.php?f=30&t=22732
