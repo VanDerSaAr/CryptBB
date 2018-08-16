@@ -57,4 +57,5 @@ cryptbb-7.18.8.11-rus.zip
 
 Смотрите также оффлайновые утилиты: http://cryptbb.us.to/rus/soft/curr/
 
-Читайте официальное обсуждение на ресурсе с 2013 года: http://www.php-forum.com/phpforum/viewtopic.php?f=30&t=22732
+Читайте официальное обсуждение на ресурсе с 2013 года:
+http://www.php-forum.com/phpforum/viewtopic.php?f=30&t=22732
