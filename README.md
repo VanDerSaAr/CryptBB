@@ -1,4 +1,4 @@
-This PHP+JS application, the encrypted forum with open source code, provides a more secure private communication between people. All messages are transmited over internet and are stored in the database in the encrypted format. All mathematical cryptographic operations are executed by client (internet browser), not by server. To encrypt the messages, this forum uses AES (Rijndael) 256 CTR (Counter mode), the symmetric military-class encryption (USA) 2012, and to exchange the password between users - RSA (Rivest-Shamir-Adleman) 768-2048, one of the best asymmetric ciphers at present time (2012). With this application You can create Your own forums and discuss with Your friends any topics securely. Anybody (even administrator) cannot read Your closed messages. Join the encrypted community!
+﻿This application, the encrypted forum with the open source code, provides a more secure private communication between the people. All messages are transmitted over the internet and are stored in the database in the encrypted format. All the mathematical cryptographic operations are executed by the client (internet browser), not by the server. This forum uses the symmetric military-class encryption AES (Rijndael) 256 CTR (Counter mode) for encrypting the messages and one of the best asymmetric ciphers RSA (Rivest-Shamir-Adleman) 768-2048 OAEP for exchanging the passwords between the members. Here You can create Your own forums and discuss with Your friends any topics securely. Anybody (even administrator) cannot read Your closed messages. Join the encrypted community!
 
 Official site: http://cryptbb.us.to
 
@@ -49,9 +49,11 @@ History.
 
 2018-01-03: The ability of demanding the invite code to register a new users is realized. The utility SIGN was upgraded.
 
+2018-08-11: The design of the elements was changed.
+
 Download.
 
-cryptbb-7.18.1.3.zip
+cryptbb-7.18.8.11.zip
 
 See also the offline utilities: http://cryptbb.us.to/soft/curr/
 
