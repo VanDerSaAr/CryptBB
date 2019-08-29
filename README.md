@@ -25,37 +25,39 @@ In addition, for increased safety, offline tools were developed for generating a
 
 History.
 
-2012-05-31: Version 1. The forum in english (eng) language has been hosted. The cipher AES-256 CTR for encrypting messages has been implemented.
+2012-05-31: Version 1. The forum in english (eng) language has been hosted. The AES-256 CTR cipher for encrypting messages has been implemented.
 
-2012-07-10: The cipher RSA 768-2048 for exchanging passwords between members has been implemented. Offline utilities ASYM and SYMM have been created. The CONSOLE captcha has been added.
+2012-07-10: The RSA 768-2048 cipher for exchanging passwords between members has been implemented. Offline utilities ASYM and SYMM have been created. The CONSOLE captcha has been added.
 
-2013-01-22: The algorithm MT 19937 based on the utility RAND for generating secure random passwords has been implemented. Support for russian (rus) language has been added. The CONSOLE captcha has been upgraded.
+2013-01-22: The MT 19937 algorithm based on the RAND utility for generating secure random passwords has been implemented. Support for russian (rus) language has been added. The CONSOLE captcha has been upgraded.
 
-2013-03-10: The algorithm CAPSUL for encapsulating small messages has been added. The source code (PHP, HTML and JS) of the application has been published under the MIT license.
+2013-03-10: The CAPSUL algorithm for encapsulating small messages has been added. The source code (PHP, HTML and JS) of the application has been published under the MIT license.
 
-2013-06-14: Version 2. The algorithm VEIL for veilizing messages has been implemented for english (eng) and russian (rus) languages.
+2013-06-14: Version 2. The VEIL algorithm for veilizing messages has been implemented for english (eng) and russian (rus) languages.
 
-2014-02-01: Version 3. Support for PHPSECLIB + JS has been added. The algorithm CAPSUL has been modified, the utility RAND has been upgraded. The design of the elements has been changed.
+2014-02-01: Version 3. Support for PHPSECLIB + JS has been added. The CAPSUL algorithm has been modified, the RAND utility has been upgraded. The design of the elements has been changed.
 
-2015-01-25: Version 4. Utilities ASYM and SYMM have been upgraded. The algorithm SCRAMBLE for scrambling messages after encapsulation has been added.
+2015-01-25: Version 4. Utilities ASYM and SYMM have been upgraded. The SCRAMBLE algorithm for scrambling messages after encapsulation has been added.
 
 2015-05-09: Version 5. BB-codes are supported. User "crapspacle" asked about posting images, therefore attaching an encrypted file to a message has been implemented.
 
 2015-06-02: Smileys are supported. User "Sophia Kiss" wrote and shared the open source WIN32-application to locally convert Base64-text into binary data and save it to a file.
 
-2016-12-31: Version 6. The algorithm CAPSUL has been simplified to NOISE, the algorithm SCRAMBLE has been simplified to SWAP. The utility SIGN for digitally signing and verifying published files has been created.
+2016-12-31: Version 6. The CAPSUL algorithm has been simplified to NOISE, the SCRAMBLE algorithm has been simplified to SWAP. The SIGN utility for digitally signing and verifying published files has been created.
 
-2017-09-09: Version 7. The utility VEIL for veilizing messages and transcoding between different pools of Base64-characters has been created.
+2017-09-09: Version 7. The VEIL utility for veilizing messages and transcoding between different pools of Base64-characters has been created.
 
-2018-01-03: The ability of the require an invitation code to register new users has been implemented. The utility SIGN has been upgraded.
+2018-01-03: The ability of the require an invitation code to register new users has been implemented. The SIGN utility has been upgraded.
 
 2018-08-11: The design of the elements has been changed.
 
-2019-01-12: The module "Private messages" has been upgraded. The utility VERIFY has been created.
+2019-01-12: The module "Private messages" has been upgraded. The VERIFY utility has been created.
+
+2019-08-08: The dark theme for the forum interface has been added. New BB-codes are supported in the posts. The optional KEY-OSSL utility for extracting keys from OpenSSL to the supported format has been created.
 
 Download.
 
-cryptbb-7.19.1.12.zip
+cryptbb-7.19.8.8.zip
 
 See also offline utilities: http://cryptbb.us.to/soft/curr/
 
